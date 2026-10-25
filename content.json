@@ -164,7 +164,7 @@
         {
           "label": "HUD",
           "image": {
-            "src": "assets/work-d714f6ad7e71195d29.webp",
+            "src": "assets/ashen-v11-hud.webp",
             "width": 1200,
             "height": 400,
             "caption": "Assembled on dark"
@@ -173,11 +173,11 @@
         {
           "label": "Shadow slots \u00b7 flipbook",
           "image": {
-            "src": "assets/shadow-loop.webp",
+            "src": "assets/ashen-v11-loop.webp",
             "width": 1200,
             "height": 400
           },
-          "poster": "assets/shadow-poster.webp"
+          "poster": "assets/ashen-v11-poster.webp"
         }
       ]
     },
@@ -274,8 +274,8 @@
     {
       "id": "shadow",
       "title": "Shadow slots",
-      "src": "assets/shadow-loop.webp",
-      "poster": "assets/shadow-poster.webp",
+      "src": "assets/ashen-v11-loop.webp",
+      "poster": "assets/ashen-v11-poster.webp",
       "type": "slot",
       "project": "ashen"
     },
