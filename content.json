@@ -1,0 +1,331 @@
+{
+  "artist": "ghris",
+  "discord": "ghrisdev",
+  "discordInvite": "https://discord.gg/8PHRu4UEJz",
+  "email": "ghris1107@gmail.com",
+  "projects": [
+    {
+      "id": "kurohana",
+      "title": "Kurohana",
+      "tags": [
+        "Ink",
+        "Pixel",
+        "Dark fantasy"
+      ],
+      "motionIds": [
+        "hud-showcase",
+        "fire",
+        "poison",
+        "healing",
+        "bite",
+        "shatter",
+        "kuro-menu",
+        "rarity",
+        "kuro-reveal",
+        "kuro-emblem"
+      ],
+      "slides": [
+        {
+          "label": "HUD \u00b7 live feedback",
+          "image": {
+            "src": "assets/hud-showcase-loop.webp",
+            "width": 980,
+            "height": 380
+          },
+          "poster": "assets/hud-showcase-poster.webp"
+        },
+        {
+          "label": "HUD",
+          "image": {
+            "src": "assets/work-4c5373fd4d9cacab7b.webp",
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "label": "Inventory",
+          "image": {
+            "src": "assets/work-a3121223c5e0a522da.webp",
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "label": "Menu",
+          "image": {
+            "src": "assets/work-787ffe1b07f8e5a0c1.webp",
+            "width": 1920,
+            "height": 1080
+          }
+        }
+      ]
+    },
+    {
+      "id": "tidebound",
+      "title": "Tidebound Corsairs",
+      "tags": [
+        "Parchment",
+        "Pixel",
+        "Fantasy"
+      ],
+      "motionIds": [
+        "paper",
+        "tide-emblem"
+      ],
+      "slides": [
+        {
+          "label": "HUD",
+          "image": {
+            "src": "assets/work-b2f32251808dd9de36.webp",
+            "width": 1920,
+            "height": 1080
+          }
+        },
+        {
+          "label": "Inventory",
+          "image": {
+            "src": "assets/work-fb55d39c84295f9f9f.webp",
+            "width": 1920,
+            "height": 1080,
+            "caption": "Inventory open"
+          }
+        },
+        {
+          "label": "Paper unfold \u00b7 flipbook",
+          "image": {
+            "src": "assets/paper-loop.webp",
+            "width": 960,
+            "height": 540
+          },
+          "poster": "assets/paper-poster.webp"
+        }
+      ]
+    },
+    {
+      "id": "vesper",
+      "title": "Vesper Archive",
+      "tags": [
+        "Ink",
+        "Pixel",
+        "Dark fantasy"
+      ],
+      "motionIds": [],
+      "slides": [
+        {
+          "label": "HUD",
+          "image": {
+            "src": "assets/work-919776603e8aacbe79.webp",
+            "width": 1600,
+            "height": 334
+          }
+        },
+        {
+          "label": "Inventory",
+          "image": {
+            "src": "assets/work-8f389bdc3206da206d.webp",
+            "width": 1600,
+            "height": 1120,
+            "caption": "Assembled on dark"
+          }
+        }
+      ]
+    },
+    {
+      "id": "thornveil",
+      "title": "Thornveil",
+      "tags": [
+        "Pixel",
+        "Fantasy"
+      ],
+      "motionIds": [],
+      "slides": [
+        {
+          "label": "HUD",
+          "image": {
+            "src": "assets/work-9289549716df0770f1.webp",
+            "width": 1360,
+            "height": 436,
+            "caption": "Assembled on dark"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ashen",
+      "title": "Ashen Ink",
+      "tags": [
+        "Ink",
+        "Dark fantasy"
+      ],
+      "motionIds": [
+        "shadow"
+      ],
+      "slides": [
+        {
+          "label": "HUD",
+          "image": {
+            "src": "assets/work-d714f6ad7e71195d29.webp",
+            "width": 1200,
+            "height": 400,
+            "caption": "Assembled on dark"
+          }
+        },
+        {
+          "label": "Shadow slots \u00b7 flipbook",
+          "image": {
+            "src": "assets/shadow-loop.webp",
+            "width": 1200,
+            "height": 400
+          },
+          "poster": "assets/shadow-poster.webp"
+        }
+      ]
+    },
+    {
+      "id": "eclipse",
+      "title": "Eclipse Oath",
+      "tags": [
+        "Pixel",
+        "Dark fantasy"
+      ],
+      "motionIds": [],
+      "slides": [
+        {
+          "label": "HUD",
+          "image": {
+            "src": "assets/work-273d22b37116e4caa8.webp",
+            "width": 1360,
+            "height": 420,
+            "caption": "Assembled on dark"
+          }
+        }
+      ]
+    },
+    {
+      "id": "ornate",
+      "title": "Ornate Pixel RPG",
+      "tags": [
+        "Pixel",
+        "Dark fantasy"
+      ],
+      "motionIds": [],
+      "slides": [
+        {
+          "label": "HUD",
+          "image": {
+            "src": "assets/work-5b59d3bf4d738db7e0.webp",
+            "width": 1360,
+            "height": 436,
+            "caption": "Assembled on dark"
+          }
+        }
+      ]
+    }
+  ],
+  "motion": [
+    {
+      "id": "hud-showcase",
+      "title": "HUD \u00b7 live feedback",
+      "src": "assets/hud-showcase-loop.webp",
+      "poster": "assets/hud-showcase-poster.webp",
+      "type": "hud",
+      "project": "kurohana"
+    },
+    {
+      "id": "fire",
+      "title": "Burning",
+      "src": "assets/fire-loop.webp",
+      "poster": "assets/fire-poster.webp",
+      "type": "bar",
+      "project": "kurohana"
+    },
+    {
+      "id": "poison",
+      "title": "Poisoned",
+      "src": "assets/poison-loop.webp",
+      "poster": "assets/poison-poster.webp",
+      "type": "bar",
+      "project": "kurohana"
+    },
+    {
+      "id": "healing",
+      "title": "Healing",
+      "src": "assets/healing-loop.webp",
+      "poster": "assets/healing-poster.webp",
+      "type": "bar",
+      "project": "kurohana"
+    },
+    {
+      "id": "bite",
+      "title": "Auto execute",
+      "src": "assets/bite-loop.webp",
+      "poster": "assets/bite-poster.webp",
+      "type": "slot",
+      "project": "kurohana"
+    },
+    {
+      "id": "shatter",
+      "title": "Guard break",
+      "src": "assets/shatter-loop.webp",
+      "poster": "assets/shatter-poster.webp",
+      "type": "slot",
+      "project": "kurohana"
+    },
+    {
+      "id": "shadow",
+      "title": "Shadow slots",
+      "src": "assets/shadow-loop.webp",
+      "poster": "assets/shadow-poster.webp",
+      "type": "slot",
+      "project": "ashen"
+    },
+    {
+      "id": "paper",
+      "title": "Paper unfold",
+      "src": "assets/paper-loop.webp",
+      "poster": "assets/paper-poster.webp",
+      "type": "panel",
+      "project": "tidebound"
+    },
+    {
+      "id": "tide-emblem",
+      "title": "Skull & straw hat",
+      "src": "assets/tide-emblem-loop.webp",
+      "poster": "assets/tide-emblem-poster.webp",
+      "type": "slot",
+      "project": "tidebound"
+    },
+    {
+      "id": "kuro-menu",
+      "title": "Menu entrance",
+      "src": "assets/kuro-menu-loop.webp",
+      "poster": "assets/kuro-menu-poster.webp",
+      "type": "panel",
+      "project": "kurohana"
+    },
+    {
+      "id": "rarity",
+      "title": "Rarity shimmer",
+      "src": "assets/rarity-loop.webp",
+      "poster": "assets/rarity-poster.webp",
+      "type": "panel",
+      "project": "kurohana"
+    },
+    {
+      "id": "kuro-reveal",
+      "title": "Shadow reveal",
+      "src": "assets/kuro-reveal-loop.webp",
+      "poster": "assets/kuro-reveal-poster.webp",
+      "type": "panel",
+      "project": "kurohana"
+    },
+    {
+      "id": "kuro-emblem",
+      "title": "Combat emblem",
+      "src": "assets/kuro-emblem-loop.webp",
+      "poster": "assets/kuro-emblem-poster.webp",
+      "type": "slot",
+      "project": "kurohana"
+    }
+  ]
+}
