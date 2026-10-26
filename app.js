@@ -131,7 +131,7 @@ async function start(){
     renderProjects();initializeMotion();$$('.filter-fields select').forEach(select=>select.addEventListener('change',renderProjects));$('#reset-filters').addEventListener('click',()=>{$$('.filter-fields select').forEach(s=>s.selectedIndex=0);renderProjects();});
     animate($$('.hero > .eyebrow, .hero h1, .hero-bottom'),{opacity:[0,1],y:[32,0]},{duration:1,delay:motion?.stagger(.12)});
     if(motion&&!reduced.matches)motion.inView('.contact-section, .motion-section',element=>{animate(element,{opacity:[0,1],y:[25,0]},{duration:.85});},{amount:.08});
-    document.body.dataset.ready='true';const anchor=['#top','#work','#motion','#contact'].includes(location.hash)?$(location.hash):null;anchor?.scrollIntoView({behavior:'instant'});
+    document.body.dataset.ready='true';const anchor=['#top','#work','#process','#motion','#contact'].includes(location.hash)?$(location.hash):null;anchor?.scrollIntoView({behavior:'instant'});
   }catch(error){$('#project-grid').textContent='The work could not be loaded. Please refresh or email ghris1107@gmail.com.';console.error(error);}
 }
 start();

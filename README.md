@@ -32,3 +32,8 @@ GitHub Pages publishes the `main` branch from `/ (root)`. The `.nojekyll` file s
 OS reduced-motion preferences are respected. The email form opens a draft in the visitor’s email app; it does not send email from a server.
 
 Portfolio artwork is reserved to its respective owner. Preview credits and save/drag deterrents do not prevent screenshots or browser asset retrieval.
+
+
+## HXH UI process section
+
+`#process` is a separate enlarged gold/silver comparison. Open the preview, drag the divider (or use its arrow keys), then choose “How did we get here?” to start at iteration 01 and step through 05. Escape closes the view and returns focus. `ironbound-story.js`, `ironbound-story.css`, and the ten lossless WebP images with the `assets/ironbound-iteration-` prefix provide the feature without a build step. The section contains no explanatory paragraphs.
