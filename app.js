@@ -67,7 +67,7 @@ function renderProjects(){
     let index=0;
     const controls=document.createElement('div');controls.className='project-controls';
     const prev=document.createElement('button'),next=document.createElement('button'),counter=document.createElement('span');prev.type=next.type='button';prev.textContent='←';next.textContent='→';prev.setAttribute('aria-label',`Previous ${project.title} image`);next.setAttribute('aria-label',`Next ${project.title} image`);counter.setAttribute('aria-live','polite');
-    const update=direction=>{index=(index+direction+project.slides.length)%project.slides.length;const slide=project.slides[index];art.src=reduced.matches&&slide.poster?slide.poster:slide.image.src;art.alt=`${project.title} · ${slide.label}`;counter.textContent=`${slide.label} · ${index+1}/${project.slides.length}`;animate(art,{opacity:[.15,1],x:[direction*12,0]},{duration:.45});};
+    const update=direction=>{index=(index+direction+project.slides.length)%project.slides.length;const slide=project.slides[index];art.src=reduced.matches&&slide.poster?slide.poster:slide.image.src;art.alt=`${project.title} · ${slide.label}`;art.width=slide.image.width;art.height=slide.image.height;stage.style.setProperty('--art-ratio',`${slide.image.width}/${slide.image.height}`);counter.textContent=`${slide.label} · ${index+1}/${project.slides.length}`;animate(art,{opacity:[.15,1],x:[direction*12,0]},{duration:.45});};
     update(0);prev.addEventListener('click',()=>update(-1));next.addEventListener('click',()=>update(1));controls.append(prev,counter,next);controls.hidden=project.slides.length<2;
     addSwipe(main,update);main.addEventListener('click',()=>{if(main.dataset.swiped)return;openGallery(project.slides.map(s=>({src:reduced.matches&&s.poster?s.poster:s.image.src,label:s.label})),index,project.title);});
     main.addEventListener('pointerenter',()=>{if(matchMedia('(hover:hover)').matches)animate(art,{scale:1.012},{duration:.5});});main.addEventListener('pointerleave',()=>animate(art,{scale:1},{duration:.5}));
@@ -127,7 +127,7 @@ $('#contact-form').addEventListener('submit',e=>{e.preventDefault();if(!e.curren
 $$('[data-copy]').forEach(button=>button.addEventListener('click',async()=>{try{await navigator.clipboard.writeText(button.dataset.copy);toast('Copied — ghrisdev');}catch{toast('Discord — ghrisdev');}}));
 async function start(){
   try{
-    const response=await fetch('content.json');if(!response.ok)throw new Error('Collection unavailable');content=await response.json();
+    const response=await fetch('content.json?v=charcoal-veil-1');if(!response.ok)throw new Error('Collection unavailable');content=await response.json();
     renderProjects();initializeMotion();$$('.filter-fields select').forEach(select=>select.addEventListener('change',renderProjects));$('#reset-filters').addEventListener('click',()=>{$$('.filter-fields select').forEach(s=>s.selectedIndex=0);renderProjects();});
     animate($$('.hero > .eyebrow, .hero h1, .hero-bottom'),{opacity:[0,1],y:[32,0]},{duration:1,delay:motion?.stagger(.12)});
     if(motion&&!reduced.matches)motion.inView('.contact-section, .motion-section',element=>{animate(element,{opacity:[0,1],y:[25,0]},{duration:.85});},{amount:.08});

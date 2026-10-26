@@ -8,3 +8,6 @@
 /* Three equally clear contact choices. */
 .contact-method{font:600 27px/1.3 var(--sans);letter-spacing:-.035em}.contact-choice:first-child .contact-method::after{content:none}.contact-value{font-size:25px;color:#bdc5ba}.email-link{font-size:24px}.join-choice{font-size:27px;letter-spacing:-.035em}.contact-value span{font-size:17px}.contact-hint{font-size:9px}
 @media(max-width:600px){.contact-method,.join-choice{font-size:26px}.contact-value{font-size:24px}.email-link{font-size:23px}}
+
+/* Credits are baked into every Charcoal Veil presentation preview. */
+.project-stage>.art-credit,.motion-panel>.art-credit,.image-stage>.art-credit{display:none}

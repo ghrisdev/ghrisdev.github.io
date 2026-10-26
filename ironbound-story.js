@@ -18,7 +18,7 @@
   let previousFocus;
 
   function source(index, metal) {
-    return `assets/ironbound-iteration-${String(index + 1).padStart(2, '0')}-${metal}.webp`;
+    return `assets/ironbound-iteration-${String(index + 1).padStart(2, '0')}-${metal}.webp?v=charcoal-veil-1`;
   }
 
   function setSplit(value) {
