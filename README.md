@@ -36,4 +36,4 @@ Portfolio artwork is reserved to its respective owner. Preview credits and save/
 
 ## HXH UI process section
 
-`#process` is a separate enlarged gold/silver comparison. Open the preview, drag the divider (or use its arrow keys), then choose “How did we get here?” to start at iteration 01 and step through 05. Escape closes the view and returns focus. `ironbound-story.js`, `ironbound-story.css`, and the ten lossless WebP images with the `assets/ironbound-iteration-` prefix provide the feature without a build step. The section contains no explanatory paragraphs.
+`#process` is a separate enlarged gold/silver comparison. Open the preview, drag the divider (or use its arrow keys), then choose “How did we get here?” to start at iteration 01 and step through 05. Escape closes the view and returns focus. `ironbound-story.js`, `ironbound-story.css`, and the ten lossless WebP images with the `assets/ironbound-iteration-` prefix provide the feature without a build step. The section has a brief client-facing introduction, without technical explanations.

@@ -2,6 +2,7 @@
 .process-heading{align-items:end;margin-bottom:42px}
 .process-heading .eyebrow{margin-bottom:15px}
 .process-heading h2 em{color:var(--accent)}
+.process-description{max-width:570px;margin-top:18px;color:var(--muted);font:14px/1.85 var(--sans)}
 .process-number{font:10px/1 var(--mono);letter-spacing:.12em;color:var(--muted);padding-bottom:8px}
 .process-preview{display:block;width:100%;padding:28px 22px 0;background:radial-gradient(ellipse at 50% 40%,#1c2223,#121617 72%);border:1px solid var(--line);text-align:left;cursor:zoom-in}
 .process-preview-art{position:relative;display:block;overflow:hidden}
